@@ -12,3 +12,12 @@ $names[] = "Eko";
 
 var_dump($names);
 var_dump(count($names));
+
+ 
+// map at php
+// sama seperti array, bedanya map bisa di custom
+$eko = array(
+    "id" => "eko",
+    "name" => "eko kurniawan",
+    "age" => 30
+); 
