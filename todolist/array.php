@@ -21,3 +21,5 @@ $eko = array(
     "name" => "eko kurniawan",
     "age" => 30
 ); 
+
+var_dump($eko);
