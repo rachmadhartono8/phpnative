@@ -26,7 +26,7 @@ var_dump($eko);
 var_dump($eko["name"]);
 
 // array di dalam array
-$eko = array(
+$ekoo = array(
     "id" => "eko",
     "name" => "eko kurniawan",
     "age" => 30,
@@ -36,4 +36,4 @@ $eko = array(
     ]
 ); 
 
-var_dump($eko["name"]["country"]);
+// var_dump($ekoo["name"]["country"]);  
