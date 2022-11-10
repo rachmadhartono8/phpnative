@@ -23,3 +23,17 @@ $eko = array(
 ); 
 
 var_dump($eko);
+var_dump($eko["name"]);
+
+// array di dalam array
+$eko = array(
+    "id" => "eko",
+    "name" => "eko kurniawan",
+    "age" => 30,
+    "addres" => [
+        "city" => "jakarta",
+        "country" => "Indonesia"
+    ]
+); 
+
+var_dump($eko["name"]["country"]);
