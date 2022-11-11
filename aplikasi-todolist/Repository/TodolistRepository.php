@@ -5,6 +5,7 @@ namespace Repository{
     interface Todolistrepository
     {
         function save(Todolist $todolist): void;
-        function remove(int $number): bolean;
+        function remove(int $number): bool;
+        function findAll():array;
     }
 }
