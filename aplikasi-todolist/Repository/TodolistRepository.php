@@ -9,9 +9,5 @@ namespace Repository{
         function findAll():array;
     }
 
-    // class TodolistRepositoryImpl implements Todolistrepository{
-        
 
-       
-    // }
 }
