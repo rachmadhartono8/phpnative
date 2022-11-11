@@ -8,4 +8,10 @@ namespace Repository{
         function remove(int $number): bool;
         function findAll():array;
     }
+
+    // class TodolistRepositoryImpl implements Todolistrepository{
+        
+
+       
+    // }
 }
